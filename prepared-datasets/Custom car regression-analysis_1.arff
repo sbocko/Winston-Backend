@@ -1,0 +1,20 @@
+@relation 'custom car regression(jWqm4fDO4)'
+
+@attribute '# of doors' numeric
+@attribute drive {diesel,gasoline,lpg}
+@attribute 'engine volume' numeric
+@attribute price numeric
+
+@data
+3,diesel,2.2,25000
+5,gasoline,1.6,16000
+5,lpg,1.4,15500
+3,gasoline,2,17500
+5,diesel,1.6,18000
+4,lpg,1.2,14000
+?,diesel,2,21000
+5,gasoline,1.6,16700
+5,?,1.4,10000
+3,gasoline,2,19000
+5,diesel,?,15900
+5,lpg,1.2,?

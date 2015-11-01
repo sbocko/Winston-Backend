@@ -1,0 +1,20 @@
+@relation 'custom dataset(A8YCvpP3L)-weka.filters.unsupervised.attribute.PartitionedMultiFilter-Fweka.filters.unsupervised.attribute.Normalize -S 1.0 -T 0.0-R1'
+
+@attribute 'filtered-0-# of doors' numeric
+@attribute unfiltered-drive {diesel,gasoline,lpg}
+@attribute 'unfiltered-engine volume' numeric
+@attribute unfiltered-buy {true,false}
+
+@data
+0,diesel,2.2,true
+1,gasoline,1.6,false
+1,lpg,1.4,true
+0,gasoline,2,true
+1,diesel,1.6,false
+0.5,lpg,1.2,false
+?,diesel,2,true
+1,gasoline,1.6,false
+1,?,1.4,false
+0,gasoline,2,true
+1,diesel,?,true
+1,lpg,1.2,?
